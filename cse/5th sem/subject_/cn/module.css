@@ -8,8 +8,7 @@
  
 }
 body{
-
- background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background: black;
 }
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -25,16 +24,18 @@ body{
   background: rgb(0,123,255,0.3);
 }
 .subjects {
+  
  
   position: absolute;
   top:95px;
-  left:33%;
+  left:12px;
   bottom: 80px;
   
 }
 .subjects  a h4{
+  width: 300px;
     font-family: 'Silkscreen', cursive;
-  font-size: 15px;
+  font-size: 22px;
   text-align: center;
   height: 70px;
   background-color: white;
@@ -42,9 +43,9 @@ body{
   padding-right:  10px;
   padding-left:10px; 
   box-shadow:2px 4px 4px #333, 4px 8px 8px #444;
- 
+  
   margin: 20px;
-  border-radius: 3px;
+  border-radius: 50px;
   border: 1px solid black;
   
 }
@@ -70,7 +71,7 @@ body{
  width: 100%;
   text-align: center;
   border-radius: 15px;
- 
+  color: white;
   font-weight: bold;
   position: absolute;
   
@@ -118,4 +119,32 @@ body{
 .footer-clean .item.social  a:hover {
   
   opacity: 30%;
+}
+@media only screen and (min-width:1200px){
+  .subjects {
+
+    position: absolute;
+    top:95px;
+    left:36.5%;
+    bottom: 80px; 
+
+    
+  }
+  .subjects  a h4{
+  width: 300px;
+    font-family: 'Silkscreen', cursive;
+  font-size: 22px;
+  text-align: center;
+  height: 80px;
+  background-color: white;
+  padding-top: 10px;
+  padding-right:  80px;
+  padding-left:80px; 
+  box-shadow:2px 4px 4px #333, 4px 8px 8px #444;
+  
+  margin: 20px;
+  border-radius: 50px;
+  border: 1px solid black;
+  
+}
 }
