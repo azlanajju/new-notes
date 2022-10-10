@@ -119,3 +119,14 @@ body{
   
   opacity: 30%;
 }
+@media only screen and (max-width:1200px){
+  .subjects {
+
+    position: absolute;
+    top:95px;
+    left:6.5%;
+    bottom: 80px; 
+
+    
+  }
+}
